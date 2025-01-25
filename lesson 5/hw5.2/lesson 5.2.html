@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Homework 5.2</title>
+      <style>
+        * {
+          margin: 0;
+        }
+
+
+        .box {
+          margin: 200px auto;
+          width: 300px;
+          height: 300px;
+
+          display: grid;
+          place-items: center;
+          grid-template-columns: repeat(3, 1fr);
+        }
+
+        .item:not(.big-item) {
+          width: 30px;
+          height: 30px;
+          background-color: black;
+          transform: rotate(45deg);
+          animation: item 1s linear infinite alternate;
+        }
+
+        .big-item {
+          width: 50px;
+          height: 50px;
+          rotate: 45deg;
+          animation: item-big .8s linear infinite alternate;
+          border-radius: 20%;
+        }
+
+        @keyframes item {
+
+          from {
+            border-radius: 50%;
+            rotate: 0deg;
+          }
+
+          25% {
+            rotate: 90deg;
+            background-color: #0e2667;
+          }
+
+          50% {
+            rotate: 180deg;
+          }
+
+          75% {
+            rotate: 270deg;
+            background-color: #612d08;
+          }
+
+          to {
+            border-radius: 0;
+            rotate: 360deg;
+            background-color: #610303;
+          }
+
+        }
+
+        @keyframes item-big {
+
+          from {
+            rotate: 0deg;
+            background-color: red;
+          }
+
+          to {
+            border-radius: 50%;
+            rotate: 360deg;
+            background-color: black;
+          }
+
+        }
+
+
+
+      </style>
+  </head>
+
+  <body>
+
+    <div class="box">
+      <div class="item" style="background-color: white; width: 0; height: 0"></div>
+      <div class="item"></div>
+      <div class="item" style="background-color: white; width: 0; height: 0"></div>
+
+      <div class="item"></div>
+      <div class="item big-item"></div>
+      <div class="item"></div>
+
+      <div class="item" style="background-color: white; width: 0; height: 0"></div>
+      <div class="item"></div>
+      <div class="item" style="background-color: white; width: 0; height: 0"></div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Homework 5.3</title>
+      <style>
+        * {
+          margin: 0;
+        }
+
+        .box {
+          margin: 200px auto;
+          height: 200px;
+          width: 200px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+        }
+
+        .item {
+          width: 15px;
+          height: 100px;
+          background-color: black;
+        }
+
+        .item.short {
+          animation: short 1s linear infinite alternate;
+        }
+
+        .item.long {
+          animation: long 1s linear infinite alternate;
+        }
+
+        .item.middle {
+          animation: middle 1s linear infinite alternate;
+        }
+
+        .item.medium {
+          animation: medium 1s linear infinite alternate;
+        }
+
+        .item.fast {
+          animation: fast .8s linear infinite alternate;
+        }
+
+        @keyframes short {
+
+          from {
+            height: 100px;
+          }
+
+          25% {
+            height: 125px;
+          }
+
+          50% {
+            height: 175px;
+          }
+
+          75% {
+            height: 130px;
+          }
+
+          to {
+            height: 100px;
+          }
+
+        }
+
+        @keyframes long {
+
+          from {
+            height: 80px;
+          }
+
+          25% {
+            height: 150px;
+          }
+
+          50% {
+            height: 90px;
+          }
+
+          75% {
+            height: 120px;
+          }
+
+          to {
+            height: 180px;
+          }
+
+        }
+
+        @keyframes medium {
+
+          from {
+            height: 50px;
+          }
+
+          25% {
+            height: 90px;
+          }
+
+          50% {
+            height: 160px;
+          }
+
+          75% {
+            height: 120px;
+          }
+
+          to {
+            height: 70px;
+          }
+
+        }
+
+        @keyframes middle {
+
+          from {
+            height: 120px;
+          }
+
+          25% {
+            height: 90px;
+          }
+
+          50% {
+            height: 50px;
+          }
+
+          75% {
+            height: 80px;
+          }
+
+          to {
+            height: 130px;
+          }
+
+        }
+
+        @keyframes fast {
+
+          from {
+            height: 40px;
+          }
+
+          25% {
+            height: 100px;
+          }
+
+          50% {
+            height: 150px;
+          }
+
+          75% {
+            height: 80px;
+          }
+
+          to {
+            height: 40px;
+          }
+
+        }
+
+      </style>
+  </head>
+
+  <body>
+
+    <div class="box">
+      <div class="item short"></div>
+      <div class="item middle"></div>
+      <div class="item long"></div>
+      <div class="item fast"></div>
+      <div class="item long"></div>
+      <div class="item medium"></div>
+      <div class="item middle"></div>
+      <div class="item long"></div>
+      <div class="item medium"></div>
+      <div class="item fast"></div>
+    </div>
+
+  </body>
+</html>

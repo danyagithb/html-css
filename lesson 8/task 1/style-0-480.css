@@ -1,0 +1,16 @@
+@media screen and (max-width: 480px) {
+
+    .box {
+        gap: 40px;
+    }
+
+    .box-item {
+        width: 343px;
+        height: auto;
+    }
+
+}
+
+
+
+

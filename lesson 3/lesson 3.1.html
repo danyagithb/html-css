@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Homework 3.1</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                color: #fff;
+                margin: 20px;
+            }
+
+            .section-widgets,
+            .section-contact {
+                background-color: #1f79ed;
+                font-size: 48px;
+            }
+
+            .section-widgets,
+            .section-main{
+                height: 400px;
+            }
+
+            .section-main {
+                margin-block: 20px;
+                font-size: 28px;
+            }
+
+            .section-contact {
+                height: 600px;
+            }
+
+            .box {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+                height: 100%;
+            }
+
+            .box-item {
+                background-color: darkblue;
+            }
+
+            .box-item,
+            .section-contact,
+            .section-widgets {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <section class="section-widgets">Widgets</section>
+        <section class="section-main">
+            <div class="box">
+                <div class="box-item">Big Widgets</div>
+                <div class="box-item">Bigger Widgets</div>
+                <div class="box-item">Huge Widgets</div>
+            </div>
+        </section>
+        <section class="section-contact">Contact</section>
+
+    </body>
+</html>

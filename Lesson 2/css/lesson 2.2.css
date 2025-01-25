@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.box-item {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all linear .3s;
+}
+
+.box-item:hover {
+    background-color: gray;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 200px;
+    background-color: #fae3c2;
+}
+
+.Rubik {
+    font-family: "Rubik Pixels", serif;
+}
+
+.Ave {
+    font-family: "Sedgwick Ave Display", serif;
+}
+
+.Dancing {
+    font-family: "Dancing Script", serif;
+}
+
+.One {
+    font-family: "Fjalla One", serif;
+}
+
+.India {
+    font-family: "Indie Flower", serif;
+}
+
+

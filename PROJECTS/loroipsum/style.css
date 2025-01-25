@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1070px;
+    margin: 0 auto;
+}
+
+/*------------ header ------------*/
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 68px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 49px;
+}
+
+nav a {
+    color: #696871;
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.469px;
+
+    transition: all linear .1s;
+}
+
+nav a:hover:not(.header__active-link) {
+    color: #4d4c53;
+}
+
+.header__active-link {
+    color: #19191B;
+    border-bottom: 2px solid #5454D4;
+}
+
+.header-button {
+    width: 211px;
+    height: 60px;
+    border-radius: 10px;
+    background: #FF7143;
+    border: none;
+    cursor: pointer;
+    transition: all linear .1s;
+
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+}
+
+.header-button:hover {
+    background: #f84f18;
+}
+
+
+/*------------ intro -------------*/
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-title {
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 77px; /* 102.667% */
+    letter-spacing: -2.501px;
+
+    margin-bottom: 30px;
+}
+
+.intro-text {
+    color: #696871;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.625px;
+
+    margin-right: 30px;
+    margin-bottom: 50px;
+    width: 409px;
+}
+
+.intro-button {
+    width: 188px;
+    height: 60px;
+    border-radius: 10px;
+    background: #5454D4;
+
+    border: none;
+    transition: all linear .1s;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+}
+
+.intro-button:hover {
+    background: #3f3fa1;
+}
+
+
+/*--------------- brands -----------------*/
+
+.brands {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 132px;
+    margin-bottom: 150px;
+}
+
+
+/*------------- work -------------*/
+
+.work {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 165px;
+}
+
+.work--alternate {
+    gap: 208px;
+    margin-top: 83px;
+}
+
+.work-title {
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57px; /* 114% */
+    letter-spacing: -1.563px;
+}
+
+.work-text {
+    margin-block: 30px;
+    width: 459px;
+
+    color: #696871;
+    font-family: Mulish, sans-serif;
+    font-size: 20px;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.625px;
+}
+
+.work-link {
+    color: #5454D4;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+
+    transition: all linear .1s;
+}
+
+.work-link:hover {
+    color: #0e2667;
+}
+
+
+/*---------- about -----------*/
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 75px;
+    margin-block: 150px;
+}
+
+.about-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-title {
+    color: #19191B;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    letter-spacing: -0.75px;
+
+    margin-block: 20px;
+}
+
+.about-text {
+    width: 307px;
+    color: #696871;
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    font-size: 16px;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.5px;
+}
+
+.about-img {
+    padding-left: 10px;
+}
+
+
+/*---------- price --------------*/
+
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 82px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.price-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 250px;
+}
+
+.price-title {
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    line-height: 70px; /* 116.667% */
+    letter-spacing: -1.876px;
+    width: 523px;
+}
+
+.price-buttons {
+    width: 344px;
+    height: 65px;
+    border-radius: 10px;
+    background: #F7F7FB;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-button {
+    cursor: pointer;
+    border: none;
+    color: #19191B;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+
+    width: 175px;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    background: #F7F7FB;
+}
+
+.price-button__active {
+    width: 160px;
+    height: 55px;
+
+    border-radius: 10px 0 0 10px;
+    background: #5454D4;
+    color: white;
+}
+
+
+.price-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.price-card-item {
+    width: 330px;
+    height: 441px;
+    border-radius: 10px;
+    background: #F8F8F8;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all linear .2s;
+}
+
+.price-card-item:hover {
+    scale: 1.13;
+    background: #FF7143;
+    box-shadow: 0 32px 34px 0 rgba(255, 112, 59, 0.32);
+}
+
+.price-card-item:hover .card-name {
+    color: white;
+}
+
+.price-card-item:hover .card-title {
+    color: white;
+}
+
+.price-card-item:hover .card-about {
+    color: white;
+}
+
+.price-card-item:hover .card-button{
+    background: #9F3919;
+    border: none;
+    color: white;
+}
+
+.card-name {
+    color: #696871;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: -0.563px;
+
+    margin-top: 34px;
+    transition: all linear .2s;
+}
+
+.card-title {
+    color: #1D293F;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 56px; /* 93.333% */
+    letter-spacing: -1.034px;
+    height: 56px;
+
+    margin-top: 22px;
+    transition: all linear .2s;
+}
+
+.card-title>span {
+    font-size: 28px;
+}
+
+.card-about {
+    color: #696871;
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    font-size: 17px;
+    line-height: 50px; /* 294.118% */
+    letter-spacing: -0.531px;
+
+    margin-top: 28px;
+    margin-bottom: 36px;
+    transition: all linear .2s;
+}
+
+.card-button {
+    width: 285px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #EAE9F2;
+    background: #FFF;
+
+    color: #5454D4;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+
+    margin-bottom: 27px;
+    cursor: pointer;
+    transition: all linear .2s;
+}
+
+
+
+
+
+
