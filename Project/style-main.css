@@ -405,6 +405,26 @@ nav>ul {
 }
 
 
+.lesson-button-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lesson-button {
+    width: 165px;
+    height: 64px;
+    border-radius: 8px;
+    background: var(--Blue);
+
+    color: var(--White);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
 
 
 
