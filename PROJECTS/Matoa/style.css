@@ -1,0 +1,113 @@
+body {
+    font-family: 'Taviraj', serif;
+    background: #F7F6F4;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+
+/*--------- header ----------*/
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 186px;
+    padding-top: 36px;
+
+    margin-bottom: 90px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+}
+
+.header-nav-item {
+    color: #333;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+
+    transition: all linear .1s;
+}
+
+.header-nav-item:hover {
+    color: #000000;
+}
+
+
+/*------------ intro ------------*/
+
+.intro {
+    width: 100%;
+    height: 505px;
+    background: #F1DDC9;
+    padding-top: 14px;
+
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 56px;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+
+    padding-top: 42px;
+}
+
+.intro-title {
+    width: 414px;
+    color: #333;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 80px; /* 133.333% */
+    letter-spacing: 1.2px;
+
+    margin-bottom: 32px;
+}
+
+.intro-text {
+    color: #333;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    width: 529px;
+    font-family: 'Nunito', serif;
+
+    margin-bottom: 79px;
+}
+
+.intro-button {
+    width: 208px;
+    height: 62px;
+    background: #D84727;
+
+    color: #FFF;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+
+
+
+
+
+
+
+
+
