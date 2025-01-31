@@ -101,12 +101,118 @@ body {
     color: #FFF;
     font-size: 20px;
     letter-spacing: 0.4px;
+    transition: all linear .1s;
+}
+
+.intro-button:hover {
+    background-color: #ed2e0a;
+    border-radius: 5px;
 }
 
 
+/*----------- deals -------------------*/
+
+.deals {
+    margin-top: 79px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 129px;
+}
+
+.section-title {
+    color: #333;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+}
+
+.deals-content {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.deals ul {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+}
+
+.deals-item {
+    width: 255px;
+    height: 278px;
+    background: #FFF;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 33px;
+    position: relative;
+    transition: all linear .2s;
+}
+
+.deals-item:hover {
+    background-color: #f4e4d4;
+}
+
+.deals img {
+    position: absolute;
+    top: -40px;
+    left: 24px;
+}
+
+.deals-card-title {
+    color: #333;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+}
 
 
+/*--------- news ---------*/
 
+.news {
+    width: 100%;
+    margin-top: 132px;
+    padding-bottom: 151px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 32px;
+}
+
+.news-content {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 58px;
+}
+
+.news-text {
+    color: #777;
+    font-size: 20px;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+}
+
+.news-title {
+    margin-top: 16px;
+    width: 350px;
+    color: #333;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: 0.72px;
+}
 
 
 
